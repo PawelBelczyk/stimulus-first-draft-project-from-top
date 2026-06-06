@@ -1,0 +1,23 @@
+<h1>Stimulus practice</h1>
+
+<div data-controller="hello">
+  <input data-hello-target="name" type="text">
+
+  <button data-action="click->hello#greet">
+    Przywitaj
+  </button>
+
+  <span data-hello-target="output"></span>
+</div>
+
+<hr>
+
+<div data-controller="toggle">
+  <button data-action="click->toggle#toggle">
+    Pokaż / Ukryj
+  </button>
+
+  <div data-toggle-target="content">
+    Jestem ukrywaną treścią!
+  </div>
+</div>  

@@ -1,0 +1,18 @@
+current directory: /home/pawel4449/repos/6r/stimulus-practise/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/home/pawel4449/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/pawel4449/repos/6r/stimulus-practise/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260606-12764-matohk sitelibdir\=./.gem.20260606-12764-matohk clean
+
+current directory: /home/pawel4449/repos/6r/stimulus-practise/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260606-12764-matohk sitelibdir\=./.gem.20260606-12764-matohk
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/pawel4449/repos/6r/stimulus-practise/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260606-12764-matohk sitelibdir\=./.gem.20260606-12764-matohk install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20260606-12764-matohk/skiptrace/internal
+
+current directory: /home/pawel4449/repos/6r/stimulus-practise/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260606-12764-matohk sitelibdir\=./.gem.20260606-12764-matohk clean
