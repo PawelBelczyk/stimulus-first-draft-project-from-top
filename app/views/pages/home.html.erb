@@ -10,14 +10,58 @@
   <span data-hello-target="output"></span>
 </div>
 
-<hr>
+<hr id="bibi">
 
 <div data-controller="toggle">
   <button data-action="click->toggle#toggle">
     Pokaż / Ukryj
   </button>
 
-  <div data-toggle-target="content">
+  <div data-toggle-target="content" class="hidden">
     Jestem ukrywaną treścią!
   </div>
 </div>  
+
+<hr>
+
+<div data-controller="toggle">
+  <button data-action="click->toggle#toggle">
+    Pokaż / Ukryj menu
+  </button>
+
+  <div data-toggle-target="content" class="hidden">
+    To jest menu.
+  </div>
+</div>
+
+
+<hr id="cici">
+
+<div data-controller="toggle">
+  <button data-action="click->toggle#toggle">
+    Pokaż / Ukryj sekretną wiadomość
+  </button>
+
+  <div data-toggle-target="content" class="hidden">
+To jest sekretna wiadomość.
+  </div>
+</div>
+
+<hr>
+
+<h2>Kliknij element, żeby zamienić treść</h2>
+
+<hr>
+
+<div data-controller="toggle">
+  <div 
+    data-toggle-target="content"
+    data-action="click->toggle#toggle"
+  >
+    Kliknij mnie — jestem elementem A
+  </div>
+
+  <div data-toggle-target="content" class="hidden">
+    Jestem elementem B — pojawiłem się po kliknięciu
+  </div>
+</div>

@@ -8,7 +8,14 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+#bibi {
+   border-color: red;
+   
+}
 
+#cici {
+   border-color: blue  ;
+}
  .hidden {
     display: none;
  }

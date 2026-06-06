@@ -4,6 +4,8 @@ export default class extends Controller {
   static targets = ["content"]
 
   toggle() {
-    this.contentTarget.classList.toggle("hidden")
+    this.contentTargets.forEach((element) => {
+      element.classList.toggle("hidden")
+    })
   }
 }
