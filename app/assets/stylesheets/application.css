@@ -16,6 +16,20 @@
 #cici {
    border-color: blue  ;
 }
+
+#eldo {
+   border: 10px solid grey;
+}
+
+#dziewanna {
+   border: 3px dashed palevioletred;
+}
  .hidden {
     display: none;
+ }
+
+
+ .highlight {
+background-color: yellowgreen;
+
  }

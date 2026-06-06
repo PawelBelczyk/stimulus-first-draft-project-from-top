@@ -65,3 +65,35 @@ To jest sekretna wiadomość.
     Jestem elementem B — pojawiłem się po kliknięciu
   </div>
 </div>
+
+<hr id="eldo">
+
+<h2> checkbox highlight </h2>
+
+<div data-controller="checkbox-highlight">
+  <label data-checkbox-highlight-target="box">
+    <input 
+      type="checkbox"
+      data-action="change->checkbox-highlight#toggle"
+    >
+
+Pomyśl o lepszych inwestycjach w swoim życiu
+  </label>
+</div>
+
+
+<hr id="dziewanna">
+
+<h3> Licznik znaków / Chars counter </h3>
+
+<div data-controller="character-counter">
+  <textarea
+  maxlength="280"
+    data-character-counter-target="input"
+    data-action="input->character-counter#count"
+  ></textarea>
+
+  <p data-character-counter-target="output">
+    Pozostało: 280 znaków
+  </p>
+</div>
